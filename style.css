@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+.intro.second {
+    color: black;
+}
+
+#oga {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+p {
+    margin: 50px;
+}
+
+p.just-a-p {
+    background-color: bisque;
+}
+
+div, p {
+    border: 1px dotted blue;
+}
+
+div p {
+    font-size: 20px;
+}
+
+body > p {
+    text-align: center;
+}
+
+h1 + p { 
+    color: blue;
+}
+
+h4 ~ p {
+    font-weight: bold;
+}
+
+[id] {
+    background-color: aqua;
+}
+
+[id="smaller"] {
+    color: chartreuse;
+}
+
+[class="just-a-p"] {
+    text-decoration: line-through;
+}
+
+[class|="en"] {
+    margin-left: 200px;
+}
+
+a[href^="https"] {
+    color: brown;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a[href$=".com"] {
+    color: blue;
+}
+
+a:active {
+    text-decoration: line-through;
+}
+
+p::after {
+    content: ".......";
+}
+
+p::before {
+    content: "//";
+}
+
+p:empty {
+    color: yellow;
+}
+
+input:checked {
+    padding: 30px;
+}
+
+/* p:first-child {
+    font-size: 50px;
+} */
+
+h1::first-letter {
+    font-size: 70px;
+}
+
+.intro::first-line {
+    text-decoration: underline;
+}
+
+p:first-of-type {
+ text-decoration: overline;   
+}
+
+h2:has(+p) {
+    font-size: 100px;
+}
+
+a:hover {
+    color: #000666;
+}
+
+    	input:in-range {
+            margin: 20px;
+        }
+
+input:indeterminate {
+    font-display: none;
+}
+
+/* input:invalid {
+
+} */
+
+h6:lang(en) {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+}
+
+h6:last-child {
+    font-size: 60px;
+}
+
+:not(p) {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p:nth-last-of-type(2) {
+    color: aquamarine;
+}
+
+p:only-of-type {
+    color: red;
+}
+
+input::placeholder {
+    padding: 50px;
+}
+
+input:required { 
+    border: 2px dotted red;
+}
+
+:target {
+    border: 2px solid #d4d4d4;
+}
+
+a:visited {
+    font-size: 120px;
+}
